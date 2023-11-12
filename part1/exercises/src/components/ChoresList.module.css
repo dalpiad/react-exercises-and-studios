@@ -1,7 +1,15 @@
+
+
 .choresText {
-   color: black;
+   color: rgba(0, 155, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   color: rgba(0, 155, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration-line: underline;
+   text-align: left;
 }
