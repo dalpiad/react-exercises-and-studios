@@ -2,7 +2,7 @@ import classes from './ChoresList.module.css'
 
 export default function ChoresList () {
    return  (
-      <div>
+      <div style={{backgroundColor:  "rgb(0, 50, 55)"}}>
          <h3 className = {classes.choresHeading}>Chores To Do:</h3>
          <ul className={classes.choresText}>
             <li>Study for LaunchCode</li>

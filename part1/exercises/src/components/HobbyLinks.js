@@ -1,11 +1,7 @@
-export default function ChoresList () {
-    return  (
-       <div>
-          <h3 className = {classes.choresHeading}>Chores To Do:</h3>
-          <ul className={classes.choresText}>
-             <li>Study for LaunchCode</li>
-             <li>Complete LaunchCode Exercises</li>
-             <li>Work on Graded Assignement 6</li>
-          </ul>
-       </div>);
+export default function HobbyLinks () {
+    let hobbyLinks = ["https://www.microcenter.com/", "https://pcpartpicker.com/"];
+    return  (<div style={{border: '2px solid black'}}>
+        <a href = {hobbyLinks[0]}>MicroCenter</a> <br></br>
+        <a href = {hobbyLinks[1]}>PC Part Picker</a>
+        </div>)
  }

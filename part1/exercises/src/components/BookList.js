@@ -5,11 +5,11 @@ export default function BookList() {
    let book3 = "https://i.ebayimg.com/images/g/JfcAAOSwEhdePLcA/s-l500.jpg";
 
    return (
-      <div>
+      <div style={{border: '2px solid black'}}>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying" />
-         <img src={book2} alt="HTML5 Programming with JavaScript For Dummies" />
-         <img src={book3} alt="Yay You! Moving Up and Moving On" />
+         <img src={book1} height="300" alt="Learning How to Learn: How to Succeed in School Without Spending All Your Time Studying" />
+         <img src={book2} height="300" alt="HTML5 Programming with JavaScript For Dummies" />
+         <img src={book3} height="300" alt="Yay You! Moving Up and Moving On" />
       </div>      
    );
 }
