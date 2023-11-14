@@ -8,7 +8,7 @@ function RecipeAuthor () {
     
     return  (
         <div className = {styles.recipeAuthorBlock}>
-            <img src={authorPhoto} alt = "Author Kristen Whitby" className={styles.imageUpdates} />
+            <img src={authorPhoto} alt = "Author Kristen Whitby" className={styles.imageAuthorUpdates} />
         <div>
            <h3>{authorName}</h3>
            <a href={authorLink}>Recipe from ellaclaireinspired.com</a> 
@@ -18,6 +18,7 @@ function RecipeAuthor () {
 
 class RecipeDescription extends React.Component {
     render() {
+        return (
         <div> 
             <div>
                 <h1>Butter Pecan Snowball Meltaways</h1>
@@ -25,7 +26,7 @@ class RecipeDescription extends React.Component {
             </div>
         <RecipeAuthor />
         </div>
-    }
+    )}
 };
 
 export default RecipeDescription;

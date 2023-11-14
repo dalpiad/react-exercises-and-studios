@@ -5,5 +5,11 @@
     
 .imageUpdates {
        object-fit: contain;
+       width: 50%;
+}
+
+.imageAuthorUpdates {
+    object-fit: contain;
+    width: 25%;
 }
 
