@@ -12,15 +12,21 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1"
+=======
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^4.5.0"
+>>>>>>> upstream/main
   },
   "overrides": {
     "@svgr/webpack": "$@svgr/webpack"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "vite build",
     "test": "react-scripts test",
+    "server": "vite preview",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
