@@ -1,14 +1,14 @@
-function RateARecipe() {
-  let rating = props.rating;
+let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
+
+function RateARecipe(props) {
   function GiveRating() {
-    let stars = ["⭐", "⭐ ⭐", "⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐", "⭐ ⭐ ⭐ ⭐ ⭐"];
-    if (rating >= 0 && rating <= 5) {
-      return <h3>{stars[rating - 1]}</h3>;
+    if (props.rating >= 0 && props.rating <= 5) {
+      return <h3>{stars[props.rating - 1]}</h3>;
     } else {
       return null;
     }
  }
-  return GiveRating;
+  return GiveRating();
 }
 
 export default RateARecipe;
