@@ -1,18 +1,12 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
+     "name": "Butter Pecan Snowball Meltaways",
+     "author": "Author Kristen Whitby",
+     "description": "The BEST Snowball Cookies for Christmas.",
+     "website": "https://www.pinterest.com/pin/516084438582305490/",
+     "recipeImage": "https://www.ellaclaireinspired.com/wp-content/uploads/2020/12/snowball-cookies-in-front-of-lights-scaled.jpg",
+     "authorImage": "https://i.pinimg.com/280x280_RS/31/96/56/3196569849eab9e739a39c9134fc6cde.jpg",
+     "ingredients": ["flour", "pecans-chopped", "powdered-sugar", "salted butter", "vanilla"]
    }
  ]
  
