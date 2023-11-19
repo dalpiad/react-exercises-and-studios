@@ -1,3 +1,4 @@
+import "./styling.css";
 import data from '../data.json';
 import { useState } from 'react';
 
@@ -23,9 +24,9 @@ export default function MyProjects() {
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{project.trail} in {project.park}
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img src={project.photoUrl} className="parkImage" alt={project.alt} />
     </div>
   );
 }

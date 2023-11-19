@@ -1,11 +1,14 @@
+import "./styling.css";
+
 export default function HobbyIntroduction () {
    return(
       <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
+         <h2>4 Fun Facts About Hiking</h2>
+         <ol className="hobbyFacts">
+            <li>Hiking is a wonderful way to explore an area.</li>
+            <li>Hiking can be combined with other hobbies such as photography.</li>
+            <li>There are many great places to hike in Missouri.</li>
+            <li>Hiking is a great form of exercise, for adults, children, and pets.</li>
          </ol>
       </div>
    );
