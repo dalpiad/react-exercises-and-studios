@@ -48,4 +48,10 @@
 
 .imageUpdates {
   object-fit: contain;
+  width: 30%;
+  border-radius: 40%;
+}
+
+.recipeItems {
+  text-align: left;
 }
